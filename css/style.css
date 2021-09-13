@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-body {
-  margin-left: 0px;
+header h1 {
+  margin-top: 20px;
 }
 
 header span{
@@ -17,12 +17,14 @@ header span{
   height: 100px;
   background-color: #4DA0FF;
   background-image: url('../img/pattern.png');
-  background-size:contain;
+  background-size: contain;
 }
 
 .logo {
   /* width: 10%; */
-  height: 80px;
+  height: 50px;
+  margin-top: 40px;
+  margin-bottom: 10px;
 } 
 
 .author {
@@ -34,12 +36,21 @@ header span{
   font-size: 10px;
 }
 
+.photo-info {
+  margin-bottom: 20px;
+}
+
 .main-photos {
   padding-top: 20px;
 }
 
+main p {
+  margin-bottom: 20px;
+}
+
 ul {
   margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .highlighted {
@@ -47,13 +58,16 @@ ul {
 }
 
 .main-table {
-  text-align: center;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 th {
   background-color: #37A9E5;
   color: white;
 }
+
 
 .even {
   background-color: #B0E5F2;
