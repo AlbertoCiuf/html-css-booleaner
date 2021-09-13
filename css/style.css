@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-size: 16px;
+  margin-left: 0px;
 }
 
 header span{
@@ -14,10 +20,10 @@ header span{
   background-size:contain;
 }
 
-/* .logo {
-  width: 10%;
-  height: auto;
-} */
+.logo {
+  /* width: 10%; */
+  height: 80px;
+} 
 
 .author {
   color: #37A9E5;
@@ -30,6 +36,10 @@ header span{
 
 .main-photos {
   padding-top: 20px;
+}
+
+ul {
+  margin-left: 20px;
 }
 
 .highlighted {
