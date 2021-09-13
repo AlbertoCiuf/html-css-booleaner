@@ -8,7 +8,7 @@ header h1 {
   margin-top: 20px;
 }
 
-header span{
+header span, .related{
   color: #737373;
 }
 
@@ -17,14 +17,14 @@ header span{
   height: 100px;
   background-color: #4DA0FF;
   background-image: url('../img/pattern.png');
-  background-size: contain;
+  background-size: 400px;
 }
 
 .logo {
-  /* width: 10%; */
   height: 50px;
   margin-top: 40px;
   margin-bottom: 10px;
+  margin-left:10px;
 } 
 
 .author {
@@ -36,7 +36,7 @@ header span{
   font-size: 10px;
 }
 
-.photo-info {
+ {
   margin-bottom: 20px;
 }
 
@@ -44,7 +44,7 @@ header span{
   padding-top: 20px;
 }
 
-main p {
+main p, .photo-info {
   margin-bottom: 20px;
 }
 
@@ -63,6 +63,10 @@ ul {
   margin-bottom: 20px;
 }
 
+.th-exp {
+  width: 50%;
+}
+
 th {
   background-color: #37A9E5;
   color: white;
@@ -71,4 +75,15 @@ th {
 
 .even {
   background-color: #B0E5F2;
+}
+
+.related {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.related-img {
+  margin-top: 15px;
+  margin-left: 10px;
+  border: 1px solid black;
 }
