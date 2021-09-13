@@ -31,3 +31,20 @@ header span{
 .main-photos {
   padding-top: 20px;
 }
+
+.highlighted {
+  background-color: yellow;
+}
+
+.main-table {
+  text-align: center;
+}
+
+th {
+  background-color: #37A9E5;
+  color: white;
+}
+
+.even {
+  background-color: #B0E5F2;
+}
